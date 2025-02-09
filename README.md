@@ -67,11 +67,12 @@ Response
     "file_path": "/storage/csv_files/nsWcEEZoGaftpb9F7hQURvMhR47Gm77m65NeSKCX.csv"
 }
 
+API Endpoint
+
 
 Get /api/generate-pdf
 Request
-Upload a CSV file via POST:
-
+Generate Pdf report
 
 curl --location --request GET 'localhost:8000/api/generate-pdf' \
 --form 'csv_file=@"/home/sachintha/Music/orders_data.csv"'
