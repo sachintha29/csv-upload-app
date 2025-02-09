@@ -50,6 +50,7 @@ API Endpoint
 
 
 POST /api/upload-csv
+
 Request
 Upload a CSV file via POST:
 
@@ -71,7 +72,9 @@ API Endpoint
 
 
 Get /api/generate-pdf
+
 Request
+
 Generate Pdf report
 
 curl --location --request GET 'localhost:8000/api/generate-pdf' \
