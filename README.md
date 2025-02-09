@@ -39,10 +39,11 @@ php artisan migrate
 6. Create storage Link
 
 php artisan storage:link
-Ensure storage and bootstrap/cache have correct permissions:
 
-chmod -R 775 storage bootstrap/cache
+7. Ensure storage and bootstrap/cache have correct permissions:
 
+chmod -R 775 storage
+chmod -R 775 bootstrap/cache
 
 Usage
 
